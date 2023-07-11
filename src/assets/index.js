@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logoSamuel.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,27 +8,35 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import bootstrap from "./tech/bootstrap.png";
+import flutter from "./tech/flutter.png";
+import mui from "./tech/mui.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.png";
+import php from "./tech/php.png";
+import postgresql from "./tech/postgresql.png";
+import vue from "./tech/vue.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import instagram from "./instagram.png";
+import linkedin from "./linkedin.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import brsis from "./company/brsis.png";
+
+import agnolini from "./agnolini.png";
+import apoloCards from "./apoloCards.png";
+import notionary from "./notionary.png";
+import studyClock from "./studyClock.png";
+import talesOfTale from "./talesOfTale.png";
+import timeline from "./timeline.png";
 
 export {
   logo,
@@ -40,23 +48,30 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  angular,
+  bootstrap,
+  flutter,
+  mui,
+  mysql,
+  nextjs,
+  php,
+  vue,
+  postgresql,
+  brsis,
+  agnolini,
+  apoloCards,
+  notionary,
+  studyClock,
+  talesOfTale,
+  timeline,
+  instagram,
+  linkedin,
 };

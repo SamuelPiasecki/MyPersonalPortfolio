@@ -1,10 +1,9 @@
-import { motion } from 'framer-motion';
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas';
+import { github, instagram, linkedin } from '../assets';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full h-[440px] mx-auto'>
       <div className={`${styles.paddingX} absolute 
         inset-0 top-[120px] max-w-7xl mx-auto flex
         flex-row item-start gap-5`}>
@@ -15,15 +14,35 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915eff]'> Samuel</span>
+            Hi, I&apos;m <span className='text-[#915eff]'> Samuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user interfaces <br className='sm:block hidden' /> and web applications
           </p>
+          <div
+            className='flex gap-3 mt-3'
+          >
+            <span
+              onClick={() => window.open('https://github.com/SamuelPiasecki', '_blank')}
+              className='cursor-pointer'
+            >
+              <img src={github} alt="Github" className='w-9 h-9' />
+            </span>
+            <span
+              onClick={() => window.open('https://www.linkedin.com/in/samuel-piasecki/', '_blank')}
+              className='cursor-pointer'
+            >
+              <img src={linkedin} alt="LinkedIn" className='w-9 h-9' />
+            </span>
+            <span
+              onClick={() => window.open('https://www.instagram.com/samupiasecki/', '_blank')}
+              className='cursor-pointer'
+            >
+              <img src={instagram} alt="Instagram" className='w-9 h-9' />
+            </span>
+          </div>
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
     </section>
   )
 }
