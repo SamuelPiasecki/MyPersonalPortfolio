@@ -1,0 +1,51 @@
+{
+    "translation": {
+
+        "about": "Sobre",
+        "work": "Trabalho",
+
+        "hiIm": "Olá, eu sou",
+        "IDevelop": "Eu desenvolvo interfaces de usuários e aplicações web",
+
+        "introduction": "Introdução",
+        "overview": "Visão Geral",
+        "aboutP1": "Olá! Meu nome é Samuel Piasecki e sou um desenvolvedor frontend morando no Brasil. Me formei em ciência da computação e sou apaixonado por programação desde então. Com um forte foco no desenvolvimento web, adquiri amplo conhecimento e experiência trabalhando com diversos frameworks e bibliotecas de JavaScript.",
+        "aboutP2": "Ao longo dos anos, aprimorei minhas habilidades em criar interfaces web envolventes e amigáveis aos usuários. Desde designs responsivos até componentes interativos, busco oferecer experiências perfeitas para os usuários em diferentes dispositivos. Tenho profundo conhecimento em HTML, CSS e JavaScript, e acompanho as últimas tendências da indústria e as melhores práticas para garantir a mais alta qualidade do meu trabalho.",
+        "aboutP3": "Estou entusiasmado em continuar minha jornada como desenvolvedor frontend, aprendendo constantemente e expandindo minhas habilidades para criar experiências digitais inovadoras e impactantes.",
+
+        "whatIHaveDone": "O que eu fiz até agora",
+        "workExperience": "Experiência Profissional",
+
+        "internship": "Estágio",
+        "internshipPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
+        "internshipPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
+        "internshipPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+
+        "developer": "Frontend Developer",
+        "developerPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
+        "developerPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
+        "developerPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+
+        "myWork": "Meu Trabalho",
+        "projects": "Projetos",
+        "inThisSection": "Nesta seção, quero mostrar a você alguns dos projetos que desenvolvi com foco em aprender e aprimorar minhas habilidades.",
+
+        "notionaryDescription": "Este projeto foi criado para desenvolver habilidades mais avançadas com Vue.js. As seguintes ferramentas foram usadas no Notionary: Vue.js, Firebase, Bulma, Vue-router, Pinia e Compositions APIs.",
+        "apoloDescription": "O objetivo deste projeto é aprender a construir aplicações React e desenvolver habilidades para trabalhar com o front-end. Neste projeto, você verá uma página inicial para organizar personagens/itens em seus papéis. Você poderá organizá-los em: Inimigos; Personagens; Itens; Cenários; Extras.",
+        "agnoliniDescription": "Bem-vindo ao projeto do Menu do Restaurante Angolini! Este projeto é uma aplicação web construída com React, TypeScript, ESLint, SCSS e React Router DOM. Seu objetivo é apresentar um menu para um restaurante especializado em servir deliciosas massas.",
+        "talesOfTaleDescription": "Este jogo para dispositivos móveis foi criado como meu Trabalho de Conclusão de Curso para minha graduação. Eu desenvolvi esse projeto em parceria com um amigo, e criei todas as interfaces do jogo. Isso inclui: experiência do usuário (UX), sprites e trilha sonora.",
+        "studyClockDescription": "O Study Clock é um aplicativo simples construído com React e TypeScript que ajuda você a gerenciar suas sessões de estudo. Com o Study Clock, você pode configurar um temporizador para um período específico de tempo.",
+        "timelineDescription": "Projeto com Next.js desenvolvido durante um curso na Alura, onde a ideia era criar um 'Blog' sobre o meu progresso na minha carreira. Neste projeto foram utilizadas: Next.js, React, TypeScript, CSS-in-Js, Context API, entre outras tecnologias.",
+
+        "getInTouch": "entre em contato",
+        "contact": "Contato",
+        "name": "Seu Nome",
+        "namePlaceholder": "Qual é seu nome?",
+        "email": "Seu Email",
+        "emailPlaceholder": "Qual é seu email?",
+        "message": "Sua Mensagem",
+        "messagePlaceholder": "Deixe sua mensagem aqui.",
+        "send": "Envie",
+        "sending": "Enviando"
+    }
+}

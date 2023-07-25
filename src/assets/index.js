@@ -31,6 +31,9 @@ import linkedin from "./linkedin.png";
 
 import brsis from "./company/brsis.png";
 
+import brazil from "./brazil.png";
+import usa from "./usa.png";
+
 import agnolini from "./agnolini.png";
 import apoloCards from "./apoloCards.png";
 import notionary from "./notionary.png";
@@ -74,4 +77,6 @@ export {
   timeline,
   instagram,
   linkedin,
+  brazil,
+  usa,
 };

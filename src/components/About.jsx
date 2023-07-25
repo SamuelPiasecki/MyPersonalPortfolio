@@ -5,6 +5,7 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import { useTranslation } from 'react-i18next'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -31,29 +32,32 @@ const ServiceCard = ({ index, title, icon }) => {
 }
 
 const About = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{t("introduction")}</p>
+        <h2 className={styles.sectionHeadText}>{t("overview")}.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi there! My name is Samuel Piasecki, and I&apos;m a frontend developer based in Brazil. I graduated with a degree in computer science and have been passionate about programming ever since. With a strong focus on web development, I have gained extensive knowledge and experience working with various JavaScript frameworks and libraries.
+        {t("aboutP1")}
       </motion.p>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Over the years, I have honed my skills in creating engaging and user-friendly web interfaces. From responsive designs to interactive components, I strive to deliver seamless experiences for users across different devices. I am well-versed in HTML, CSS, and JavaScript, and I keep up with the latest industry trends and best practices to ensure the highest quality of my work.
+        {t("aboutP2")}
       </motion.p>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am thrilled to continue my journey as a frontend developer, constantly learning and expanding my skills to create innovative and impactful digital experiences.
+        {t("aboutP3")}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
