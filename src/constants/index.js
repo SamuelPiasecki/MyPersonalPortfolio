@@ -28,23 +28,22 @@ import {
     timeline,
 } from "../assets";
 
-
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "about",
     },
     {
         id: "work",
-        title: "Work",
+        title: "work",
     },
     {
         id: "projects",
-        title: "Projects",
+        title: "projects",
     },
     {
         id: "contact",
-        title: "Contact",
+        title: "contact",
     },
 ];
 
@@ -58,7 +57,7 @@ const services = [
         icon: web,
     },
     {
-        title: "Flutter Developer",
+        title: "Mobile Developer",
         icon: mobile,
     },
 ];
@@ -136,27 +135,27 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Internship",
+        title: "internship",
         company_name: "BRSIS",
         icon: brsis,
         iconBg: "#383E56",
         date: "November 2022 - April 2023",
         points: [
-            "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
-            "Collaborating with cross-functional teams including designers, and other developers.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "internshipPoint1",
+            "internshipPoint2",
+            "internshipPoint3",
         ],
     },
     {
-        title: "Frontend Developer",
+        title: "developer",
         company_name: "BRSIS",
         icon: brsis,
         iconBg: "#383E56",
         date: "April 2023 - Present",
         points: [
-            "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
-            "Collaborating with cross-functional teams including designers, and other developers.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "developerPoint1",
+            "developerPoint2",
+            "developerPoint3",
         ],
     },
 ];
@@ -165,7 +164,7 @@ const projects = [
     {
         name: "Notionary",
         description:
-            "This Project was created to develop more advanced skills with Vue.js. The following tools were used in Notionary: Vue.js, Firebase, Bulma, Vue-router, Pinia and Compositions APIs.",
+            "notionaryDescription",
         tags: [
             {
                 name: "vue",
@@ -198,7 +197,7 @@ const projects = [
     {
         name: "Apolo",
         description:
-            "The objective of this project is to learn how to build React applications and develop skills to work with front-end. In this project, you will see a landing page to organize characters/items in their roles. You can organize them into: Enemies; Characters; Items; Scenarios; Extras.",
+            "apoloDescription",
         tags: [
             {
                 name: "react",
@@ -215,7 +214,7 @@ const projects = [
     {
         name: "Agnolini",
         description:
-            "Welcome to the Angolini Restaurant Menu project! This project is a web application built with React, TypeScript, ESLint, SCSS, and React Router DOM. It aims to showcase a menu for a restaurant that specializes in serving delicious pastas.",
+            "agnoliniDescription",
         tags: [
             {
                 name: "react",
@@ -244,7 +243,7 @@ const projects = [
     {
         name: "Tales of Tale",
         description:
-            "This mobile game was created as my Final Paper for my graduation. I created this project with a friend, and I created all the interfaces of the game. This includes: UX, sprites, and soundtrack.",
+            "talesOfTaleDescription",
         tags: [
             {
                 name: "unity",
@@ -265,7 +264,7 @@ const projects = [
     {
         name: "Study Clock",
         description:
-            "Study Clock is a simple application built with React and TypeScript that helps you manage your study sessions. With Study Clock, you can set a timer for a specific amount of time.",
+            "studyClockDescription",
         tags: [
             {
                 name: "react",
@@ -286,7 +285,7 @@ const projects = [
     {
         name: "Timeline",
         description:
-            "Project with Next.js developed during a course in Alura, where the idea was to develop a 'Blog' about my progress in my careear. In this project was used: Next.js, React, Typescript, CSS-in-Js, Context API, amoung others techs.",
+            "timelineDescription",
         tags: [
             {
                 name: "nextjs",

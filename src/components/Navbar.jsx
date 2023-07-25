@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import Switcher from './Switcher';
+import { useTranslation } from 'react-i18next';
 
 
 const Navbar = () => {
@@ -25,6 +27,8 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const { t } = useTranslation();
 
   return (
     <nav className={`
@@ -57,10 +61,12 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li key={link.id} className={`${active === link.title ? 'text-white' : 'text-secondary'
               } hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`}>{t(link.title)}</a>
             </li>
           ))}
+          <Switcher />
         </ul>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain cursor-pointer' onClick={() => setToggle(!toggle)} />
@@ -75,6 +81,7 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <Switcher />
             </ul>
           </div>
         </div>

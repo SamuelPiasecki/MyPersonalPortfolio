@@ -1,0 +1,51 @@
+{
+    "translation": {
+
+        "about": "About",
+        "work": "Work",
+
+        "hiIm": "Hi, I'm",
+        "IDevelop": "I develop user interfaces and web applications",
+
+        "introduction": "Introduction",
+        "overview": "Overview",
+        "aboutP1": "Hi there! My name is Samuel Piasecki, and I'm a frontend developer based in Brazil. I graduated with a degree in computer science and have been passionate about programming ever since. With a strong focus on web development, I have gained extensive knowledge and experience working with various JavaScript frameworks and libraries.",
+        "aboutP2": "Over the years, I have honed my skills in creating engaging and user-friendly web interfaces. From responsive designs to interactive components, I strive to deliver seamless experiences for users across different devices. I am well-versed in HTML, CSS, and JavaScript, and I keep up with the latest industry trends and best practices to ensure the highest quality of my work.",
+        "aboutP3": "I am thrilled to continue my journey as a frontend developer, constantly learning and expanding my skills to create innovative and impactful digital experiences.",
+
+        "whatIHaveDone": "What I have done so far",
+        "workExperience": "Work Experience",
+
+        "internship": "Intership",
+        "internshipPoint1": "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
+        "internshipPoint2": "Collaborating with cross-functional teams including designers, and other developers.",
+        "internshipPoint3": "Implementing responsive design and ensuring cross-browser compatibility.",
+
+        "developer": "Frontend Developer",
+        "developerPoint1": "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
+        "developerPoint2": "Collaborating with cross-functional teams including designers, and other developers.",
+        "developerPoint3": "Implementing responsive design and ensuring cross-browser compatibility.",
+
+        "myWork": "My work",
+        "projects": "Projects",
+        "inThisSection": "In this section, I want to show you some of the projects that I developed focusing on learning and improving my skills.",
+
+        "notionaryDescription": "This Project was created to develop more advanced skills with Vue.js. The following tools were used in Notionary: Vue.js, Firebase, Bulma, Vue-router, Pinia and Compositions APIs.",
+        "apoloDescription": "The objective of this project is to learn how to build React applications and develop skills to work with front-end. In this project, you will see a landing page to organize characters/items in their roles. You can organize them into: Enemies; Characters; Items; Scenarios; Extras.",
+        "agnoliniDescription": "Welcome to the Angolini Restaurant Menu project! This project is a web application built with React, TypeScript, ESLint, SCSS, and React Router DOM. It aims to showcase a menu for a restaurant that specializes in serving delicious pastas.",
+        "talesOfTaleDescription": "This mobile game was created as my Final Paper for my graduation. I created this project with a friend, and I created all the interfaces of the game. This includes: UX, sprites, and soundtrack.",
+        "studyClockDescription": "Study Clock is a simple application built with React and TypeScript that helps you manage your study sessions. With Study Clock, you can set a timer for a specific amount of time.",
+        "timelineDescription": "Project with Next.js developed during a course in Alura, where the idea was to develop a 'Blog' about my progress in my careear. In this project was used: Next.js, React, Typescript, CSS-in-Js, Context API, amoung others techs.",
+
+        "getInTouch": "get in touch",
+        "contact": "Contact",
+        "name": "Your Name",
+        "namePlaceholder": "What's your name?",
+        "email": "Your Email",
+        "emailPlaceholder": "What's your email?",
+        "message": "Your Message",
+        "messagePlaceholder": "Let your message here.",
+        "send": "Send",
+        "sending": "Sending"
+    }
+}
