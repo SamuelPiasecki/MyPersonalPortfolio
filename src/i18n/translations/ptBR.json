@@ -36,6 +36,7 @@
         "talesOfTaleDescription": "Este jogo para dispositivos móveis foi criado como meu Trabalho de Conclusão de Curso para minha graduação. Eu desenvolvi esse projeto em parceria com um amigo, e criei todas as interfaces do jogo. Isso inclui: experiência do usuário (UX), sprites e trilha sonora.",
         "studyClockDescription": "O Study Clock é um aplicativo simples construído com React e TypeScript que ajuda você a gerenciar suas sessões de estudo. Com o Study Clock, você pode configurar um temporizador para um período específico de tempo.",
         "timelineDescription": "Projeto com Next.js desenvolvido durante um curso na Alura, onde a ideia era criar um 'Blog' sobre o meu progresso na minha carreira. Neste projeto foram utilizadas: Next.js, React, TypeScript, CSS-in-Js, Context API, entre outras tecnologias.",
+        "crudDescription": "Este é um projeto de website que permite aos usuários interagir com um banco de dados alimentado pelo Supabase usando operações de Criar, Ler, Atualizar e Deletar (CRUD). O website é construído usando TypeScript, Next.js, React e Supabase. Ele também inclui Integração Contínua e Implantação Contínua (CI/CD) com GitHub Actions e testes de ponta a ponta usando Cypress.",
 
         "getInTouch": "entre em contato",
         "contact": "Contato",
