@@ -40,6 +40,7 @@ import notionary from "./notionary.png";
 import studyClock from "./studyClock.png";
 import talesOfTale from "./talesOfTale.png";
 import timeline from "./timeline.png";
+import crudQualidade from "./crud_qualidade.png";
 
 export {
   logo,
@@ -75,6 +76,7 @@ export {
   studyClock,
   talesOfTale,
   timeline,
+  crudQualidade,
   instagram,
   linkedin,
   brazil,

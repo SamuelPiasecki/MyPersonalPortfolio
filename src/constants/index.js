@@ -26,6 +26,7 @@ import {
     studyClock,
     talesOfTale,
     timeline,
+    crudQualidade,
 } from "../assets";
 
 export const navLinks = [
@@ -300,12 +301,37 @@ const projects = [
                 color: "text-gray-400",
             },
             {
-                name: "contentx_api",
+                name: "context_api",
                 color: "text-gray-400",
             },
         ],
         image: timeline,
         source_code_link: "https://github.com/SamuelPiasecki/portifolio-ms",
+    },
+    {
+        name: "CRUD Qualidade",
+        description:
+            "crudDescription",
+        tags: [
+            {
+                name: "nextjs",
+                color: "text-gray-400",
+            },
+            {
+                name: "typescript",
+                color: "text-gray-400",
+            },
+            {
+                name: "supabase",
+                color: "text-gray-400",
+            },
+            {
+                name: "cypress",
+                color: "text-gray-400",
+            },
+        ],
+        image: crudQualidade,
+        source_code_link: "https://github.com/SamuelPiasecki/CRUD_Qualidade",
     },
 ];
 
