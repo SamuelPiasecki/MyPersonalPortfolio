@@ -1,6 +1,14 @@
+import  { lazy, Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { About, Experience, Contact, Hero, Navbar, Tech, Works }
+import PuffLoader from "react-spinners/PuffLoader";
+import { Hero, Navbar }
   from './components';
+
+const About = lazy(() => import('./components/About'));
+const Experience = lazy(() => import('./components/Experience'));
+const Contact = lazy(() => import('./components/Contact'));
+const Tech = lazy(() => import('./components/Tech'));
+const Works = lazy(() => import('./components/Works'));
 
 const App = () => {
   return (
@@ -10,12 +18,32 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
+        <Suspense fallback={
+          <div className='w-full flex justify-center items-center py-6'>
+            <PuffLoader
+              color={'#fff'}
+              size={150}
+              aria-label="Loading Spinner"
+            />
+          </div>
+          }>
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+        </Suspense>
         <div className="relative z-0">
-          <Contact />
+          <Suspense fallback={
+            <div className='w-full flex justify-center items-center py-6'>
+              <PuffLoader
+                color={'#fff'}
+                size={150}
+                aria-label="Loading Spinner"
+              />
+            </div>
+          }>
+            <Contact />
+          </Suspense>
         </div>
       </div>
     </BrowserRouter>
