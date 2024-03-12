@@ -1,5 +1,7 @@
-import { styles } from '../styles'
-import { github, instagram, linkedin } from '../assets';
+import { styles } from '../styles';
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
