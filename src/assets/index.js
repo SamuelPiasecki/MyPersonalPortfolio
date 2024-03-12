@@ -34,13 +34,13 @@ import brsis from "./company/brsis.png";
 import brazil from "./brazil.png";
 import usa from "./usa.png";
 
-import agnolini from "./agnolini.png";
-import apoloCards from "./apoloCards.png";
-import notionary from "./notionary.png";
-import studyClock from "./studyClock.png";
-import talesOfTale from "./talesOfTale.png";
-import timeline from "./timeline.png";
-import crudQualidade from "./crud_qualidade.png";
+import agnolini from "./agnolini.webp";
+import apoloCards from "./apoloCards.webp";
+import notionary from "./notionary.webp";
+import studyClock from "./studyClock.webp";
+import talesOfTale from "./talesOfTale.webp";
+import timeline from "./timeline.webp";
+import crudQualidade from "./crud_qualidade.webp";
 
 export {
   logo,
