@@ -1,13 +1,6 @@
-import  { lazy } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { Hero, Navbar }
+import { About, Experience, Contact, Hero, Navbar, Tech, Works }
   from './components';
-
-const About = lazy(() => import('./components/About'));
-const Experience = lazy(() => import('./components/Experience'));
-const Contact = lazy(() => import('./components/Contact'));
-const Tech = lazy(() => import('./components/Tech'));
-const Works = lazy(() => import('./components/Works'));
 
 const App = () => {
   return (
