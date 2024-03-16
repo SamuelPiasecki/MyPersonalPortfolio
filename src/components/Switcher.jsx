@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
-import brazil from "../assets/brazil.png"
-import usa from "../assets/usa.png"
+import brazil from "/assets/brazil.png"
+import usa from "/assets/usa.png"
 
 const languageOptions = [
     {

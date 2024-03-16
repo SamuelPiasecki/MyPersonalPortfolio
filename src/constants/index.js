@@ -20,86 +20,86 @@ export const navLinks = [
 const services = [
     {
         title: "Frontend Developer",
-        icon: "/src/assets/creator.png",
+        icon: "/assets/creator.png",
     },
     {
         title: "Web Developer",
-        icon: "/src/assets/web.png",
+        icon: "/assets/web.png",
     },
     {
         title: "Mobile Developer",
-        icon: "/src/assets/mobile.png",
+        icon: "/assets/mobile.png",
     },
 ];
 
 const technologies = [
     {
         name: "HTML 5",
-        icon: "/src/assets/tech/html.png",
+        icon: "/assets/tech/html.png",
     },
     {
         name: "CSS 3",
-        icon: "/src/assets/tech/css.png",
+        icon: "/assets/tech/css.png",
     },
     {
         name: "JavaScript",
-        icon: "/src/assets/tech/javascript.png",
+        icon: "/assets/tech/javascript.png",
     },
     {
         name: "TypeScript",
-        icon: "/src/assets/tech/typescript.png",
+        icon: "/assets/tech/typescript.png",
     },
     {
         name: "React JS",
-        icon: "/src/assets/tech/reactjs.png",
+        icon: "/assets/tech/reactjs.png",
     },
     {
         name: "Redux Toolkit",
-        icon: "/src/assets/tech/redux.png",
+        icon: "/assets/tech/redux.png",
     },
     {
         name: "Tailwind CSS",
-        icon: "/src/assets/tech/tailwind.png",
+        icon: "/assets/tech/tailwind.png",
     },
     {
         name: "git",
-        icon: "/src/assets/tech/git.png",
+        icon: "/assets/tech/git.png",
     },
     {
         name: "Angular",
-        icon: "/src/assets/tech/angular.png",
+        icon: "/assets/tech/angular.png",
     },
     {
         name: "Vue",
-        icon: "/src/assets/tech/vue.png",
+        icon: ".//assets/tech/vue.png",
     },
     {
         name: "Flutter",
-        icon: "/src/assets/tech/flutter.png",
+        icon: "/assets/tech/flutter.png",
     },
     {
         name: "MUI",
-        icon: "/src/assets/tech/mui.png",
+        icon: "/assets/tech/mui.png",
     },
     {
         name: "MySQL",
-        icon: "/src/assets/tech/mysql.png",
+        icon: "/assets/tech/mysql.png",
     },
     {
         name: "PostgreSQL",
-        icon: "/src/assets/tech/postgresql.png",
+        icon: "/assets/tech/postgresql.png",
     },
     {
         name: "PHP",
-        icon: "/src/assets/tech/php.png",
+        icon: "/assets/tech/php.png",
     },
     {
         name: "Next.js",
-        icon: "/src/assets/tech/nextjs.png",
+        icon: "/assets/tech/nextjs.png",
     },
     {
         name: "Bootstrap",
-        icon: "/src/assets/tech/bootstrap.png",
+        icon: "/assets/tech/bootstrap.png",
     },
 ];
 
@@ -107,7 +107,7 @@ const experiences = [
     {
         title: "internship",
         company_name: "BRSIS",
-        icon: "/src/assets/company/brsis.png",
+        icon: "../assets/company/brsis.png",
         iconBg: "#383E56",
         date: "November 2022 - April 2023",
         points: [
@@ -119,7 +119,7 @@ const experiences = [
     {
         title: "developer",
         company_name: "BRSIS",
-        icon: "/src/assets/company/brsis.png",
+        icon: "/assets/company/brsis.png",
         iconBg: "#383E56",
         date: "April 2023 - Present",
         points: [
@@ -161,7 +161,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: "/src/assets/notionary.webp",
+        image: "/assets/notionary.webp",
         source_code_link: "https://github.com/SamuelPiasecki/great-vue",
     },
     {
@@ -178,7 +178,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: "/src/assets/apoloCards.webp",
+        image: "/assets/apoloCards.webp",
         source_code_link: "https://github.com/SamuelPiasecki/Apolo-react",
     },
     {
@@ -207,7 +207,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/src/assets/agnolini.webp",
+        image: "/assets/agnolini.webp",
         source_code_link: "https://github.com/SamuelPiasecki/Agnolini",
     },
     {
@@ -228,7 +228,7 @@ const projects = [
                 color: "text-sky-200",
             },
         ],
-        image: "/src/assets/talesOfTale.webp",
+        image: "/assets/talesOfTale.webp",
         source_code_link: "",
     },
     {
@@ -249,7 +249,7 @@ const projects = [
                 color: "text-purple-300",
             },
         ],
-        image: "/src/assets/studyClock.webp",
+        image: "/assets/studyClock.webp",
         source_code_link: "https://github.com/SamuelPiasecki/StudyClockReact",
     },
     {
@@ -274,7 +274,7 @@ const projects = [
                 color: "text-gray-400",
             },
         ],
-        image: "/src/assets/timeline.webp",
+        image: "/assets/timeline.webp",
         source_code_link: "https://github.com/SamuelPiasecki/portifolio-ms",
     },
     {
@@ -299,7 +299,7 @@ const projects = [
                 color: "text-gray-400",
             },
         ],
-        image: "/src/assets/crud_qualidade.webp",
+        image: "/assets/crud_qualidade.webp",
         source_code_link: "https://github.com/SamuelPiasecki/CRUD_Qualidade",
     },
 ];

@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import close from '../assets/close.svg';
-import menu from '../assets/menu.svg';
-import logo from '../assets/logoSamuel.png';
+import close from '/assets/close.svg';
+import menu from '/assets/menu.svg';
+import logo from '/assets/logoSamuel.png';
 import Switcher from './Switcher';
 import { useTranslation } from 'react-i18next';
 
