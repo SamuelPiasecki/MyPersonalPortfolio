@@ -21,10 +21,15 @@
         "internshipPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
         "internshipPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
 
-        "developer": "Frontend Developer",
-        "developerPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
-        "developerPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
-        "developerPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+        "developerBrsis": "Frontend Developer",
+        "developerBrsisPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
+        "developerBrsisPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
+        "developerBrsisPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+
+        "developer3C": "Frontend Developer",
+        "developer3CPoint1": "Desenvolvendo uma aplicação utilizando Vue.js e outras tecnologias relacionadas.",
+        "developer3CPoint2": "Colaborando com equipes completas, incluindo UX designers, Backend Developers, QAs, entre outros",
+        "developer3CPoint3": "Colaborando no desenvolvimento de uma ferramenta solução all-in-one, contando com Discador Automático, SMS, WhatsApp, CRM, etc.",
 
         "myWork": "Meu Trabalho",
         "projects": "Projetos",
