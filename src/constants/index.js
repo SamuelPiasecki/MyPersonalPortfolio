@@ -117,15 +117,27 @@ const experiences = [
         ],
     },
     {
-        title: "developer",
+        title: "developerBrsis",
         company_name: "BRSIS",
         icon: "/assets/company/brsis.png",
         iconBg: "#383E56",
-        date: "April 2023 - Present",
+        date: "April 2023 - April 2024",
         points: [
-            "developerPoint1",
-            "developerPoint2",
-            "developerPoint3",
+            "developerBrsisPoint1",
+            "developerBrsisPoint2",
+            "developerBrsisPoint3",
+        ],
+    },
+    {
+        title: "developer3C",
+        company_name: "3C+",
+        icon: "/assets/company/logo_3c.svg",
+        iconBg: "#383E56",
+        date: "April 2024 - Present",
+        points: [
+            "developer3CPoint1",
+            "developer3CPoint2",
+            "developer3CPoint3",
         ],
     },
 ];
