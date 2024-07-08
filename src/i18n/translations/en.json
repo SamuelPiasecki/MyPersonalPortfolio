@@ -52,6 +52,10 @@
         "message": "Your Message",
         "messagePlaceholder": "Let your message here.",
         "send": "Send",
-        "sending": "Sending"
+        "sending": "Sending",
+
+        "tooltips": {
+           "githubRepoLink": "Click here to access this Repository" 
+        }
     }
 }
