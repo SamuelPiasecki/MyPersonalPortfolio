@@ -1,12 +1,13 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import { styles } from '../styles'
+import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { useTranslation } from 'react-i18next';
 
-const Contact = () => {
+const Contact = ({ showSnackbar }) => {
+  const { t } = useTranslation();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
@@ -18,8 +19,8 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm({ ...form, [name]: value })
-  }
+    setForm({ ...form, [name]: value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -38,20 +39,18 @@ const Contact = () => {
     )
       .then(() => {
         setLoading(false);
-        alert('Thank you, I will get back to you as soon as possible.');
+        showSnackbar(true);
         setForm({
           name: '',
           email: '',
           message: ''
-        })
+        });
       }, (error) => {
-        setLoading(false)
-        console.log(error)
-        alert('Something went wrong.')
-      })
-  }
-
-  const { t } = useTranslation();
+        setLoading(false);
+        console.log(error);
+        showSnackbar(false);
+      });
+  };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -61,7 +60,6 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>{t("getInTouch")}</p>
         <h3 className={styles.sectionHeadText}>{t("contact")}.</h3>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -78,7 +76,6 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>{t("email")}</span>
             <input
@@ -90,7 +87,6 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>{t("message")}</span>
             <textarea
@@ -102,7 +98,6 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
           <button
             type="submit"
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-primary rounded-xl'
@@ -112,7 +107,7 @@ const Contact = () => {
         </form>
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Contact, 'contact')
+export default SectionWrapper(Contact, 'contact');
