@@ -53,6 +53,7 @@
         "messagePlaceholder": "Let your message here.",
         "send": "Send",
         "sending": "Sending",
+        "emailSuccess": "Thank you, I will get back to you as soon as possible.",
 
         "tooltips": {
            "githubRepoLink": "Click here to access this Repository" 
