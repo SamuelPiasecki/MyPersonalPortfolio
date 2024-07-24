@@ -109,7 +109,7 @@ const experiences = [
         company_name: "BRSIS",
         icon: "../assets/company/brsis.png",
         iconBg: "#383E56",
-        date: "November 2022 - April 2023",
+        date: "internshipDate",
         points: [
             "internshipPoint1",
             "internshipPoint2",
@@ -121,7 +121,7 @@ const experiences = [
         company_name: "BRSIS",
         icon: "/assets/company/brsis.png",
         iconBg: "#383E56",
-        date: "April 2023 - April 2024",
+        date: "developerBrsisDate",
         points: [
             "developerBrsisPoint1",
             "developerBrsisPoint2",
@@ -133,7 +133,7 @@ const experiences = [
         company_name: "3C+",
         icon: "/assets/company/logo_3c.svg",
         iconBg: "#383E56",
-        date: "April 2024 - Present",
+        date: "developer3CDate",
         points: [
             "developer3CPoint1",
             "developer3CPoint2",

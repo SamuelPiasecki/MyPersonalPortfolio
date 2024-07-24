@@ -17,16 +17,19 @@
         "workExperience": "Work Experience",
 
         "internship": "Intership",
+        "internshipDate": "November 2022 - April 2023",
         "internshipPoint1": "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
         "internshipPoint2": "Collaborating with cross-functional teams including designers, and other developers.",
         "internshipPoint3": "Implementing responsive design and ensuring cross-browser compatibility.",
 
         "developerBrsis": "Frontend Developer",
+        "developerBrsisDate": "April 2023 - April 2024",
         "developerBrsisPoint1": "Developing and maintaining web applications using HTML, SASS, PHP and other related technologies.",
         "developerBrsisPoint2": "Collaborating with cross-functional teams including designers, and other developers.",
         "developerBrsisPoint3": "Implementing responsive design and ensuring cross-browser compatibility.",
 
         "developer3C": "Frontend Developer",
+        "developer3CDate": "April 2024 - July 2024",
         "developer3CPoint1": "Developing an application using Vue.js and other related technologies.",
         "developer3CPoint2": "Collaborating with full teams, including UX designers, Backend Developers, QAs, among others.",
         "developer3CPoint3": "Collaborating in the development of an all-in-one solution tool, encompassing Automatic Dialer, SMS, WhatsApp, CRM, etc.",
