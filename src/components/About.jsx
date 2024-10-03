@@ -38,26 +38,26 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>{t("introduction")}</p>
-        <h2 className={styles.sectionHeadText}>{t("overview")}.</h2>
+        <p className={styles.sectionSubText}>{t("introduction.title")}</p>
+        <h2 className={styles.sectionHeadText}>{t("introduction.overview")}.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {t("aboutP1")}
+        {t("introduction.aboutP1")}
       </motion.p>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {t("aboutP2")}
+        {t("introduction.aboutP2")}
       </motion.p>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {t("aboutP3")}
+        {t("introduction.aboutP3")}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

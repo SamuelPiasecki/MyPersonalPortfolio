@@ -68,15 +68,15 @@ const Works = () => {
   return (
     <>
       <div>
-        <p className={styles.sectionSubText}>{t("myWork")}</p>
-        <h2 className={styles.sectionHeadText}>{t("projects")}.</h2>
+        <p className={styles.sectionSubText}>{t("projects.myWork")}</p>
+        <h2 className={styles.sectionHeadText}>{t("projects.title")}.</h2>
       </div>
 
       <div className='w-full flex'>
         <p
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          {t("inThisSection")}
+          {t("projects.inThisSection")}
         </p>
       </div>
 
