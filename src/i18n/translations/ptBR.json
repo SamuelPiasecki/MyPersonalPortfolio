@@ -7,56 +7,71 @@
         "hiIm": "Olá, eu sou",
         "IDevelop": "Eu desenvolvo interfaces de usuários e aplicações web",
 
-        "introduction": "Introdução",
-        "overview": "Visão Geral",
-        "aboutP1": "Olá! Meu nome é Samuel Piasecki e sou um desenvolvedor frontend morando no Brasil. Me formei em ciência da computação e sou apaixonado por programação desde então. Com um forte foco no desenvolvimento web, adquiri amplo conhecimento e experiência trabalhando com diversos frameworks e bibliotecas de JavaScript.",
-        "aboutP2": "Ao longo dos anos, aprimorei minhas habilidades em criar interfaces web envolventes e amigáveis aos usuários. Desde designs responsivos até componentes interativos, busco oferecer experiências perfeitas para os usuários em diferentes dispositivos. Tenho profundo conhecimento em HTML, CSS e JavaScript, e acompanho as últimas tendências da indústria e as melhores práticas para garantir a mais alta qualidade do meu trabalho.",
-        "aboutP3": "Estou entusiasmado em continuar minha jornada como desenvolvedor frontend, aprendendo constantemente e expandindo minhas habilidades para criar experiências digitais inovadoras e impactantes.",
+        "introduction": {
+            "title": "Introdução",
+            "overview": "Visão Geral",
+            "aboutP1": "Olá! Meu nome é Samuel Piasecki e sou um desenvolvedor frontend morando no Brasil. Me formei em ciência da computação e sou apaixonado por programação desde então. Com um forte foco no desenvolvimento web, adquiri amplo conhecimento e experiência trabalhando com diversos frameworks e bibliotecas de JavaScript.",
+            "aboutP2": "Ao longo dos anos, aprimorei minhas habilidades em criar interfaces web envolventes e amigáveis aos usuários. Desde designs responsivos até componentes interativos, busco oferecer experiências perfeitas para os usuários em diferentes dispositivos. Tenho profundo conhecimento em HTML, CSS e JavaScript, e acompanho as últimas tendências da indústria e as melhores práticas para garantir a mais alta qualidade do meu trabalho.",
+            "aboutP3": "Estou entusiasmado em continuar minha jornada como desenvolvedor frontend, aprendendo constantemente e expandindo minhas habilidades para criar experiências digitais inovadoras e impactantes."
+        },
 
-        "whatIHaveDone": "O que eu fiz até agora",
-        "workExperience": "Experiência Profissional",
+        "experience": {
+            "whatIHaveDone": "O que eu fiz até agora",
+            "workExperience": "Experiência Profissional",
 
-        "internship": "Estágio",
-        "internshipDate": "Novembro 2022 - Abril 2023",
-        "internshipPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
-        "internshipPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
-        "internshipPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+            "internship": "Estágio",
+            "internshipDate": "Novembro 2022 - Abril 2023",
+            "internshipPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
+            "internshipPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
+            "internshipPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
 
-        "developerBrsis": "Frontend Developer",
-        "developerBrsisDate": "Abril 2023 - Abril 2024",
-        "developerBrsisPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
-        "developerBrsisPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
-        "developerBrsisPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+            "developerBrsis": "Desenvolvedor Frontend",
+            "developerBrsisDate": "Abril 2023 - Abril 2024",
+            "developerBrsisPoint1": "Desenvolvendo e mantendo aplicações web utilizando HTML, SASS, PHP e outras tecnologias relacionadas.",
+            "developerBrsisPoint2": "Colaborando com equipes multifuncionais, incluindo designers e outros desenvolvedores.",
+            "developerBrsisPoint3": "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
 
-        "developer3C": "Frontend Developer",
-        "developer3CDate": "Abril 2024 - Julho 2024",
-        "developer3CPoint1": "Desenvolvendo uma aplicação utilizando Vue.js e outras tecnologias relacionadas.",
-        "developer3CPoint2": "Colaborando com equipes completas, incluindo UX designers, Backend Developers, QAs, entre outros",
-        "developer3CPoint3": "Colaborando no desenvolvimento de uma ferramenta solução all-in-one, contando com Discador Automático, SMS, WhatsApp, CRM, etc.",
+            "developer3C": "Desenvolvedor Frontend",
+            "developer3CDate": "Abril 2024 - Julho 2024",
+            "developer3CPoint1": "Desenvolvendo uma aplicação utilizando Vue.js e outras tecnologias relacionadas.",
+            "developer3CPoint2": "Colaborando com equipes completas, incluindo UX designers, Backend Developers, QAs, entre outros",
+            "developer3CPoint3": "Colaborando no desenvolvimento de uma ferramenta solução all-in-one, contando com Discador Automático, SMS, WhatsApp, CRM, etc.",
 
-        "myWork": "Meu Trabalho",
-        "projects": "Projetos",
-        "inThisSection": "Nesta seção, quero mostrar a você alguns dos projetos que desenvolvi com foco em aprender e aprimorar minhas habilidades.",
+            "developerPalinha": "Desenvolvedor Mobile",
+            "developerPalinhaDate": "Agosto 2024 - Presente",
+            "developerPalinhaPoint1": "Desenvolvendo um aplicativo utilizando Flutter e outras tecnologias relacionadas.",
+            "developerPalinhaPoint2": "Colaborando em um projeto que une músicos independentes a contratantes"
+        },
 
-        "notionaryDescription": "Este projeto foi criado para desenvolver habilidades mais avançadas com Vue.js. As seguintes ferramentas foram usadas no Notionary: Vue.js, Firebase, Bulma, Vue-router, Pinia e Compositions APIs.",
-        "apoloDescription": "O objetivo deste projeto é aprender a construir aplicações React e desenvolver habilidades para trabalhar com o front-end. Neste projeto, você verá uma página inicial para organizar personagens/itens em seus papéis. Você poderá organizá-los em: Inimigos; Personagens; Itens; Cenários; Extras.",
-        "agnoliniDescription": "Bem-vindo ao projeto do Menu do Restaurante Angolini! Este projeto é uma aplicação web construída com React, TypeScript, ESLint, SCSS e React Router DOM. Seu objetivo é apresentar um menu para um restaurante especializado em servir deliciosas massas.",
-        "talesOfTaleDescription": "Este jogo para dispositivos móveis foi criado como meu Trabalho de Conclusão de Curso para minha graduação. Eu desenvolvi esse projeto em parceria com um amigo, e criei todas as interfaces do jogo. Isso inclui: experiência do usuário (UX), sprites e trilha sonora.",
-        "studyClockDescription": "O Study Clock é um aplicativo simples construído com React e TypeScript que ajuda você a gerenciar suas sessões de estudo. Com o Study Clock, você pode configurar um temporizador para um período específico de tempo.",
-        "timelineDescription": "Projeto com Next.js desenvolvido durante um curso na Alura, onde a ideia era criar um 'Blog' sobre o meu progresso na minha carreira. Neste projeto foram utilizadas: Next.js, React, TypeScript, CSS-in-Js, Context API, entre outras tecnologias.",
-        "crudDescription": "Este é um projeto de website que permite aos usuários interagir com um banco de dados alimentado pelo Supabase usando operações de Criar, Ler, Atualizar e Deletar (CRUD). O website é construído usando TypeScript, Next.js, React e Supabase. Ele também inclui Integração Contínua e Implantação Contínua (CI/CD) com GitHub Actions e testes de ponta a ponta usando Cypress.",
+        
 
-        "getInTouch": "entre em contato",
-        "contact": "Contato",
-        "name": "Seu Nome",
-        "namePlaceholder": "Qual é seu nome?",
-        "email": "Seu Email",
-        "emailPlaceholder": "Qual é seu email?",
-        "message": "Sua Mensagem",
-        "messagePlaceholder": "Deixe sua mensagem aqui.",
-        "send": "Envie",
-        "sending": "Enviando",
-        "emailSuccess": "Obrigado(a), retornarei o mais rápido possível.",
+        "projects": {
+            "myWork": "Meu Trabalho",
+            "title": "Projetos",
+            "inThisSection": "Nesta seção, quero mostrar a você alguns dos projetos que desenvolvi com foco em aprender e aprimorar minhas habilidades.",
+
+            "notionaryDescription": "Este projeto foi criado para desenvolver habilidades mais avançadas com Vue.js. As seguintes ferramentas foram usadas no Notionary: Vue.js, Firebase, Bulma, Vue-router, Pinia e Compositions APIs.",
+            "apoloDescription": "O objetivo deste projeto é aprender a construir aplicações React e desenvolver habilidades para trabalhar com o front-end. Neste projeto, você verá uma página inicial para organizar personagens/itens em seus papéis. Você poderá organizá-los em: Inimigos; Personagens; Itens; Cenários; Extras.",
+            "agnoliniDescription": "Bem-vindo ao projeto do Menu do Restaurante Angolini! Este projeto é uma aplicação web construída com React, TypeScript, ESLint, SCSS e React Router DOM. Seu objetivo é apresentar um menu para um restaurante especializado em servir deliciosas massas.",
+            "talesOfTaleDescription": "Este jogo para dispositivos móveis foi criado como meu Trabalho de Conclusão de Curso para minha graduação. Eu desenvolvi esse projeto em parceria com um amigo, e criei todas as interfaces do jogo. Isso inclui: experiência do usuário (UX), sprites e trilha sonora.",
+            "studyClockDescription": "O Study Clock é um aplicativo simples construído com React e TypeScript que ajuda você a gerenciar suas sessões de estudo. Com o Study Clock, você pode configurar um temporizador para um período específico de tempo.",
+            "timelineDescription": "Projeto com Next.js desenvolvido durante um curso na Alura, onde a ideia era criar um 'Blog' sobre o meu progresso na minha carreira. Neste projeto foram utilizadas: Next.js, React, TypeScript, CSS-in-Js, Context API, entre outras tecnologias.",
+            "crudDescription": "Este é um projeto de website que permite aos usuários interagir com um banco de dados alimentado pelo Supabase usando operações de Criar, Ler, Atualizar e Deletar (CRUD). O website é construído usando TypeScript, Next.js, React e Supabase. Ele também inclui Integração Contínua e Implantação Contínua (CI/CD) com GitHub Actions e testes de ponta a ponta usando Cypress."
+        },
+
+        "contact": {
+            "getInTouch": "entre em contato",
+            "title": "Contato",
+            "name": "Seu Nome",
+            "namePlaceholder": "Qual é seu nome?",
+            "email": "Seu Email",
+            "emailPlaceholder": "Qual é seu email?",
+            "message": "Sua Mensagem",
+            "messagePlaceholder": "Deixe sua mensagem aqui.",
+            "send": "Envie",
+            "sending": "Enviando",
+            "emailSuccess": "Obrigado(a), retornarei o mais rápido possível."
+        },
 
         "tooltips": {
            "githubRepoLink": "Clique aqui para acessar esse Repositório" 

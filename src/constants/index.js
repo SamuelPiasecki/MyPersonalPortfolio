@@ -9,11 +9,11 @@ export const navLinks = [
     },
     {
         id: "projects",
-        title: "projects",
+        title: "projects.title",
     },
     {
         id: "contact",
-        title: "contact",
+        title: "contact.title",
     },
 ];
 
@@ -50,20 +50,16 @@ const technologies = [
         icon: "/assets/tech/typescript.png",
     },
     {
-        name: "React JS",
-        icon: "/assets/tech/reactjs.png",
-    },
-    {
-        name: "Redux Toolkit",
-        icon: "/assets/tech/redux.png",
-    },
-    {
         name: "Tailwind CSS",
         icon: "/assets/tech/tailwind.png",
     },
     {
         name: "git",
         icon: "/assets/tech/git.png",
+    },
+    {
+        name: "React JS",
+        icon: "/assets/tech/reactjs.png",
     },
     {
         name: "Angular",
@@ -74,12 +70,16 @@ const technologies = [
         icon: ".//assets/tech/vue.png",
     },
     {
-        name: "Flutter",
-        icon: "/assets/tech/flutter.png",
+        name: "Next.js",
+        icon: "/assets/tech/nextjs.png",
     },
     {
         name: "MUI",
         icon: "/assets/tech/mui.png",
+    },
+    {
+        name: "Flutter",
+        icon: "/assets/tech/flutter.png",
     },
     {
         name: "MySQL",
@@ -90,14 +90,6 @@ const technologies = [
         icon: "/assets/tech/postgresql.png",
     },
     {
-        name: "PHP",
-        icon: "/assets/tech/php.png",
-    },
-    {
-        name: "Next.js",
-        icon: "/assets/tech/nextjs.png",
-    },
-    {
         name: "Bootstrap",
         icon: "/assets/tech/bootstrap.png",
     },
@@ -105,48 +97,59 @@ const technologies = [
 
 const experiences = [
     {
-        title: "internship",
+        title: "experience.internship",
         company_name: "BRSIS",
         icon: "../assets/company/brsis.png",
         iconBg: "#383E56",
-        date: "internshipDate",
+        date: "experience.internshipDate",
         points: [
-            "internshipPoint1",
-            "internshipPoint2",
-            "internshipPoint3",
+            "experience.internshipPoint1",
+            "experience.internshipPoint2",
+            "experience.internshipPoint3",
         ],
     },
     {
-        title: "developerBrsis",
+        title: "experience.developerBrsis",
         company_name: "BRSIS",
         icon: "/assets/company/brsis.png",
         iconBg: "#383E56",
-        date: "developerBrsisDate",
+        date: "experience.developerBrsisDate",
         points: [
-            "developerBrsisPoint1",
-            "developerBrsisPoint2",
-            "developerBrsisPoint3",
+            "experience.developerBrsisPoint1",
+            "experience.developerBrsisPoint2",
+            "experience.developerBrsisPoint3",
         ],
     },
     {
-        title: "developer3C",
+        title: "experience.developer3C",
         company_name: "3C+",
         icon: "/assets/company/logo_3c.svg",
         iconBg: "#383E56",
-        date: "developer3CDate",
+        date: "experience.developer3CDate",
         points: [
-            "developer3CPoint1",
-            "developer3CPoint2",
-            "developer3CPoint3",
+            "experience.developer3CPoint1",
+            "experience.developer3CPoint2",
+            "experience.developer3CPoint3",
         ],
     },
+    {
+        title: "experience.developerPalinha",
+        company_name: "Palinha Musical App",
+        icon: "/assets/company/logo_palinha.svg",
+        iconBg: "#383E56",
+        date: "experience.developerPalinhaDate",
+        points: [
+            "experience.developerPalinhaPoint1",
+            "experience.developerPalinhaPoint2",
+        ],
+    }
 ];
 
 const projects = [
     {
         name: "Notionary",
         description:
-            "notionaryDescription",
+            "projects.notionaryDescription",
         tags: [
             {
                 name: "vue",
@@ -179,7 +182,7 @@ const projects = [
     {
         name: "Apolo",
         description:
-            "apoloDescription",
+            "projects.apoloDescription",
         tags: [
             {
                 name: "react",
@@ -196,7 +199,7 @@ const projects = [
     {
         name: "Agnolini",
         description:
-            "agnoliniDescription",
+            "projects.agnoliniDescription",
         tags: [
             {
                 name: "react",
@@ -225,7 +228,7 @@ const projects = [
     {
         name: "Tales of Tale",
         description:
-            "talesOfTaleDescription",
+            "projects.talesOfTaleDescription",
         tags: [
             {
                 name: "unity",
@@ -246,7 +249,7 @@ const projects = [
     {
         name: "Study Clock",
         description:
-            "studyClockDescription",
+            "projects.studyClockDescription",
         tags: [
             {
                 name: "react",
@@ -267,7 +270,7 @@ const projects = [
     {
         name: "Timeline",
         description:
-            "timelineDescription",
+            "projects.timelineDescription",
         tags: [
             {
                 name: "nextjs",
@@ -292,7 +295,7 @@ const projects = [
     {
         name: "CRUD Qualidade",
         description:
-            "crudDescription",
+            "projects.crudDescription",
         tags: [
             {
                 name: "nextjs",
