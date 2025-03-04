@@ -142,6 +142,16 @@ const experiences = [
             "experience.developerPalinhaPoint1",
             "experience.developerPalinhaPoint2",
         ],
+    },
+    {
+        title: "experience.developerCoamo",
+        company_name: "Coamo Agroindustrial Cooperativa",
+        icon: "/assets/company/logo_coamo.png",
+        iconBg: "#383E56",
+        date: "experience.developerCoamoDate",
+        points: [
+            "experience.developerCoamoPoint",
+        ],
     }
 ];
 
